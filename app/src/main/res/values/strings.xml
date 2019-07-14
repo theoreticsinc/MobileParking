@@ -1,0 +1,140 @@
+<resources>
+
+    <!-- Strings related to MainActivity-->
+    <string name="scan_barcode_button">Scan barcode</string>
+    <string name="no_barcode_captured">No barcode captured</string>
+    <string name="barcode_error_format">"Error reading barcode: %1$s"</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="card_type">Card Type</string>
+    <string name="card_number">Card Number</string>
+    <string name="auth_key">Authentication key</string>
+    <string name="block_index">BlockIndex</string>
+    <string name="card_content">Content</string>
+    <string name="op_clear">Clear</string>
+    <string name="op_read">Read</string>
+    <string name="op_write">Write</string>
+    <string name="op_modify_key">Modify Key</string>
+    <string name="alert_input_blockindex">Please input blockindex</string>
+    <string name="alert_auth_block">Key block!</string>
+    <string name="alert_auth_err">key Error!</string>
+    <string name="alert_write_err">Write Failed!</string>
+    <string name="alert_read_err">Read Failed!</string>
+    <string name="alert_not_auth_block">Not key block!</string>
+    <string name="modify_ok">Modify Successfully!</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+
+    <string name="app_title">Theoretics Mobile POS</string>
+
+    <!--bluetooth_activity-->
+    <string name="connect">Search for and connect a Bluetooth printer</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="choose_paper_width">Paper width:</string>
+    <string name="width1">58mm</string>
+    <string name="width2">80mm</string>
+    <string name="printhex">HEX</string>
+    <string name="btnSend">Send Data</string>
+    <string name="btn_test">Print Test</string>
+    <string name="btn_prtbmp">Print Picture</string>
+    <string name="printpicture">Graphical Print</string>
+    <string name="chosecommand">Please select instruction</string>
+    <string name="btnClose">Close</string>
+    <string name="contentdescription"></string>
+    <string name="btn_prttable">Print Form</string>
+    <string name="Smallticketprinting">Small Ticket Printing</string>
+    <string name="btn_prtcode">Print 1D/2D Codebar</string>
+    <string name="btn_scqr">Generate QR Code Print</string>
+    <string name="btn_dyca">Turn on the camera</string>
+    <string name="input">Please enter a print!</string>
+    <string name="choose_printcoding"></string>
+    <string name="big5">BIG5</string>
+    <string name="thai">Thai</string>
+    <string name="kor">Korean</string>
+    <string name="gbk12">Simplified</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning Device&#8230;</string>
+    <string name="select_device">Select the connected device</string>
+    <string name="none_paired">No matching devices</string>
+    <string name="none_found">No device found</string>
+    <string name="title_paired_devices">Match equipment</string>
+    <string name="title_other_devices">Other useful equipment</string>
+    <string name="button_scan">Scanning device</string>
+
+    <!--  Message -->
+    <string name="msg_state">Input Error!</string>
+    <string name="empty1">Input is empty, in the text box to enter the content to be converted &#8230;</string>
+    <string name="empty">Input is empty</string>
+    <string name="not_connected">Please connect a Bluetooth printer</string>
+    <string name="bt_not_enabled_leaving">Bluetooth does not start, quit the program</string>
+    <string name="title_connecting">connecting…</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">Is not connected</string>
+    <string name="Connecting">It is connected to a Bluetooth printer</string>
+    <string name="msg_statev1">Without a picture</string>
+    <string name="strLang">en</string>
+    <string name="camer">No pictures</string>
+    <string name="msg_error">Input errors, please check!</string>
+    <string name="title_activity_add_items">AddItemsActivity</string>
+    <string name="itemname">Item Name</string>
+    <string name="barcode">Barcode / QR Code:</string>
+    <string name="description">Item Description</string>
+    <string name="title_activity_print_receipt">PrintReceiptActivity</string>
+    <string name="title_activity_add2_cart">Add2CartActivity</string>
+    <string name="msg_no_notes">Nothing yet</string>
+    <string name="lbl_new_note_title">New Note</string>
+    <string name="lbl_edit_note_title">Edit Note</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This user code is invalid</string>
+    <string name="error_invalid_password">This password is wrong</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="usercode">Usercode</string>
+    <string name="uid_key">uid</string>
+    <string name="logInid_key">logid</string>
+    <string name="logIndatetime_key">logindatetime</string>
+    <string name="grandtotal_key">grandtotal</string>
+    <string name="receipt_key">receiptnos</string>
+    <string name="zread_key">zread</string>
+    <string name="title_activity_test_nfcexit">TestNFCExit</string>
+    <string name="title_activity_computation">ComputationActivity</string>
+    <string name="Request">Create Prediction Request:</string>
+    <string name="InsertionSuccess">Prediction added successfully</string>
+    <string name="title_activity_prediction">Prediction</string>
+
+    <string name="Create_Username">Username</string>
+    <string name="Create_Password">Password</string>
+    <string name="Type_Answer">Hint Answer</string>
+    <string name="User_Phone_Number">Phone Number</string>
+
+    <string name="Select_Password_Recovery_Question">Select Password Recovery Question</string>
+    <string name="Your_grandmother_name">Your grandmother"'"s name !</string>
+    <string name="Your_favorite_Car">Your favorite car !</string>
+    <string name="Your_favorite_movie">Your favorite movie !</string>
+    <string name="Your_father_nick_name">Your father"'" nick name</string>
+    <string name="Your_favorite_actress_name">Your favorite actress name !</string>
+    <string name="Your_favorite_company">Your favorite company</string>
+
+    <string name="fill_entry">* Please Fill</string>
+    <string name="duration">Duration</string>
+    <string name="amount">Amount Due</string>
+    <string name="title_activity_manual_entry">ManualEntryActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
