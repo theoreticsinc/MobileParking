@@ -1,4 +1,5 @@
-# BarcodeReaderSample
-A barcode scanner example using Google Play services.
+# Mobile Parking System
+Needs NFC Card Readers, Bluetooth Printer and Android Device and a PHP Server
 
-[This tutorial](https://www.varvet.com/blog/android-qr-code-reader-made-easy/) should be of interest :). 
+
+Built Initially for Ever Commonwealth and Chinese General Hospital
